@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
@@ -6,7 +5,7 @@
       rel="stylesheet"
       as="style"
       onload="this.rel='stylesheet'"
-      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Epilogue%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
     />
 
     <title>Stitch Design</title>
@@ -15,110 +14,137 @@
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   </head>
   <body>
-    <div
-      class="relative flex size-full min-h-screen flex-col bg-[#f8fcfa] justify-between group/design-root overflow-x-hidden"
-      style='font-family: Epilogue, "Noto Sans", sans-serif;'
-    >
-      <div>
-        <div class="flex items-center bg-[#f8fcfa] p-4 pb-2 justify-between">
-          <h2 class="text-[#0e1b14] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pl-12">My Plants</h2>
-          <div class="flex w-12 items-center justify-end">
+    <div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f2f5] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#111518]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="currentColor"></path></svg>
+            </div>
+            <h2 class="text-[#111518] text-lg font-bold leading-tight tracking-[-0.015em]">TaskMaster</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#111518] text-sm font-medium leading-normal" href="#">Inicio</a>
+              <a class="text-[#111518] text-sm font-medium leading-normal" href="#">Mis tareas</a>
+              <a class="text-[#111518] text-sm font-medium leading-normal" href="#">Proyectos</a>
+              <a class="text-[#111518] text-sm font-medium leading-normal" href="#">Calendario</a>
+            </div>
             <button
-              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 bg-transparent text-[#0e1b14] gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0"
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#f0f2f5] text-[#111518] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
             >
-              <div class="text-[#0e1b14]" data-icon="Plus" data-size="24px" data-weight="regular">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                  <path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
+              <div class="text-[#111518]" data-icon="Bell" data-size="20px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"
+                  ></path>
                 </svg>
               </div>
             </button>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA7h2NNVtyPQFpYD6dxLmF0agmvGbEVk0At8A54lUpMlBIhoEkJSyjZdxTlyncMdv0ludW1BJOa21Slzoi_0sy8QBwRf16_8rifGDMESXIZwMv2O52FpMwJvNEt-b-e6p4MJsq_-ymoySqyGi_VCokU-hx70NRmyBydpXcx0Hegj8vAxjfHQdACs0xK9O3gkXOakhpinLVmvFSvgwJ5Xr3xC3Y9ZmSpTjkdQmVBSvJ8Dph6OIisOnO01vYqjc1r8U-b5cmz_YDvgQU");'
+            ></div>
           </div>
-        </div>
-        <div class="flex items-center gap-4 bg-[#f8fcfa] px-4 min-h-[72px] py-2">
-          <div
-            class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
-            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAtCrE5qzFTItICnEEaz0VA-d2EqJ4PeAMhsclDUdjyRAW_N9UL6w9SBOt2gvFjqXAZRxLRA8WLa4sznKpInN-vmk2X5eIBoujcuv1EMKEkD0GfRrtJ7lUBeFc97tA66bM7EOUTVf0cYqxZiINdeLYJOgJnjtivjBlZAnDsJVU_9iZdy1iIrvuLMBeax26WCQ0tJJGtJ6B6SrOOMHK93Tm3BPMsxcYzZhYfBn-h6G2wYM7-2hLj6n23ykqtKFARR-3LMJCOVSBx74x-");'
-          ></div>
-          <div class="flex flex-col justify-center">
-            <p class="text-[#0e1b14] text-base font-medium leading-normal line-clamp-1">Monstera Deliciosa</p>
-            <p class="text-[#4e9773] text-sm font-normal leading-normal line-clamp-2">Water in 2 days</p>
-          </div>
-        </div>
-        <div class="flex items-center gap-4 bg-[#f8fcfa] px-4 min-h-[72px] py-2">
-          <div
-            class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
-            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAf_YRLTtRmB_oSvgALCYh85u3SvJcZQvoJvE8bF7mZnURMxBtibOFco6dzkAmQaZysKrhnKA3PR1DIhauIELMxAeB2_6ARPrm6uoXPCtcFR8wpr-Vvp_q01HomNMSYkLtpqsCPAsEFeqMowlxGVEFLk46KN8MGGo4uFHqG3qQv-PiDNp-vt9uVNVCWO4kjAx7GYdkXR1O1RmP33Rba6mcVufaLq2XMtj-DAD1IscPMlTXNdrn-gjX9p7-x3Js5WJui_XCo2mOGmAn7");'
-          ></div>
-          <div class="flex flex-col justify-center">
-            <p class="text-[#0e1b14] text-base font-medium leading-normal line-clamp-1">Fiddle Leaf Fig</p>
-            <p class="text-[#4e9773] text-sm font-normal leading-normal line-clamp-2">Water in 3 days</p>
-          </div>
-        </div>
-        <div class="flex items-center gap-4 bg-[#f8fcfa] px-4 min-h-[72px] py-2">
-          <div
-            class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
-            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC3xI7gkN2-M1GDnhBHivst1_DGbDECqig9T0p1dmv6j2DCiDGyJhI95aEGRWdA1CZZtD6lRruolXiD6kaiCASEPoITeOWQ_EK5EsnJpB2aK2zxFB5FkMu1OqIPOXn4iUL1jY33-wsJke_qT9iScYhXbE8oZ7YCD4QPNVDp_I3YSRNxvs209PylRCRaMmaqeUfIzQDk6-lcOQjCI8dK6rWun4bLOWXVFlSy1dNAdlXZrQf3M_0HQYw6ggST96uLyWrc7INE4Aw_mXTl");'
-          ></div>
-          <div class="flex flex-col justify-center">
-            <p class="text-[#0e1b14] text-base font-medium leading-normal line-clamp-1">Snake Plant</p>
-            <p class="text-[#4e9773] text-sm font-normal leading-normal line-clamp-2">Water in 1 day</p>
-          </div>
-        </div>
-        <div class="flex items-center gap-4 bg-[#f8fcfa] px-4 min-h-[72px] py-2">
-          <div
-            class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
-            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBuTwp-ZnVw5BAq15RghMJMP_Rk7RZrq_07_3fqzAjUrqGM-Eqr25WwH0HWGckvADKvEVlXSYkunAKxZ1pJQh5VF1dMY9fzw4dnFjm_w-kkcPGaPLVZg3DTa6SmfcDTf-erYJ_6aaNLl1nZlBeyvNMCk-Jyd84ljSSWE7Bwxq2tY8gKjgrtV7bCHQ5y8-fTyFne-RqKS6g5ZOotmqU34HRngBn0UcnLnhzlKW94h45V1K-VoqvKKgN1keCx1kAzjG4Dl_GNsMftlqgf");'
-          ></div>
-          <div class="flex flex-col justify-center">
-            <p class="text-[#0e1b14] text-base font-medium leading-normal line-clamp-1">ZZ Plant</p>
-            <p class="text-[#4e9773] text-sm font-normal leading-normal line-clamp-2">Water in 4 days</p>
-          </div>
-        </div>
-        <div class="flex items-center gap-4 bg-[#f8fcfa] px-4 min-h-[72px] py-2">
-          <div
-            class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
-            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDlxpH1jPGr9V2zd1HP9ak7Ojd6kvCkI0Om1-FZO_urQYgRtkiDo0hilqMPkITjo80PALozS2XRDDoHiOD9MH1AOzYACYZO23EfaC1Xa5sKSnCWaCsi7RJWGpvIC80LTgkBZ3qrHuxlBHGzgnJTHxG04Xpqd0K15g_exC5t0RpLSEDnRfafNF3JKWisoVoIGmG88fVRBcuW_nKzzTlwK7pCqUZC-MS-n4BJnwoZwKaIlSwY3Cjv6yfI0kcfWsbYqqiJhOf2a7EkOohr");'
-          ></div>
-          <div class="flex flex-col justify-center">
-            <p class="text-[#0e1b14] text-base font-medium leading-normal line-clamp-1">Peace Lily</p>
-            <p class="text-[#4e9773] text-sm font-normal leading-normal line-clamp-2">Water in 2 days</p>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="flex gap-2 border-t border-[#e7f3ed] bg-[#f8fcfa] px-4 pb-3 pt-2">
-          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#4e9773]" href="#">
-            <div class="text-[#4e9773] flex h-8 items-center justify-center" data-icon="House" data-size="24px" data-weight="regular">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                <path
-                  d="M218.83,103.77l-80-75.48a1.14,1.14,0,0,1-.11-.11,16,16,0,0,0-21.53,0l-.11.11L37.17,103.77A16,16,0,0,0,32,115.55V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V160h32v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V115.55A16,16,0,0,0,218.83,103.77ZM208,208H160V160a16,16,0,0,0-16-16H112a16,16,0,0,0-16,16v48H48V115.55l.11-.1L128,40l79.9,75.43.11.1Z"
-                ></path>
-              </svg>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex p-4 @container">
+              <div class="flex w-full flex-col gap-4 items-center">
+                <div class="flex gap-4 flex-col items-center">
+                  <div
+                    class="bg-center bg-no-repeat aspect-square bg-cover rounded-full min-h-32 w-32"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA_orDfV7cL7BNiBQDunZGsZKpKspxsv6abIlyGtcwCq5_Wo6F2tYUaH6dqKvl9GvFHVHo6ivXNIbhSmUoEU3r_Fp6awdF78mAlZKuYp3inzWR4a_cfLRAKGIYF-Uj93fqWOE8KlMfBG9hIF3Yz3P6F7SSRqV3eCbrVfsmu4n5JFtZcF6n2UzNPo0BIhgFY9SpvNiDHfB1OH1Ql9-5i6ufJ0n-EzGO58cS-WcC2HG8-c9wnd_hYWZnaQi-BLAB2iMnreHpCmXit8NY");'
+                  ></div>
+                  <div class="flex flex-col items-center justify-center justify-center">
+                    <p class="text-[#111518] text-[22px] font-bold leading-tight tracking-[-0.015em] text-center">Sophia Carter</p>
+                    <p class="text-[#60778a] text-base font-normal leading-normal text-center">Product Manager</p>
+                    <p class="text-[#60778a] text-base font-normal leading-normal text-center">Joined in 2021</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <p class="text-[#4e9773] text-xs font-medium leading-normal tracking-[0.015em]">Home</p>
-          </a>
-          <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-[#0e1b14]" href="#">
-            <div class="text-[#0e1b14] flex h-8 items-center justify-center" data-icon="Plant" data-size="24px" data-weight="fill">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                <path
-                  d="M205.41,151.07a60.9,60.9,0,0,1-31.83,8.86,71.71,71.71,0,0,1-27.36-5.66A55.55,55.55,0,0,0,136,186.51V216a8,8,0,0,1-8.53,8,8.18,8.18,0,0,1-7.47-8.25V203.31L81.38,164.69A52.5,52.5,0,0,1,63.44,168a45.82,45.82,0,0,1-23.92-6.67C17.73,148.09,6,117.62,8.27,79.79a8,8,0,0,1,7.52-7.52c37.83-2.23,68.3,9.46,81.5,31.25A46,46,0,0,1,103.74,132a4,4,0,0,1-6.89,2.43l-19.2-20.1a8,8,0,0,0-11.31,11.31l53.88,55.25c.06-.78.13-1.56.21-2.33a68.56,68.56,0,0,1,18.64-39.46l50.59-53.46a8,8,0,0,0-11.31-11.32l-49,51.82a4,4,0,0,1-6.78-1.74c-4.74-17.48-2.65-34.88,6.4-49.82,17.86-29.48,59.42-45.26,111.18-42.22a8,8,0,0,1,7.52,7.52C250.67,91.65,234.89,133.21,205.41,151.07Z"
-                ></path>
-              </svg>
+            <div class="pb-3">
+              <div class="flex border-b border-[#dbe1e6] px-4 gap-8">
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#60778a] pb-[13px] pt-4" href="#">
+                  <p class="text-[#60778a] text-sm font-bold leading-normal tracking-[0.015em]">Actividad</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-[#111518] text-[#111518] pb-[13px] pt-4" href="#">
+                  <p class="text-[#111518] text-sm font-bold leading-normal tracking-[0.015em]">Tareas</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#60778a] pb-[13px] pt-4" href="#">
+                  <p class="text-[#60778a] text-sm font-bold leading-normal tracking-[0.015em]">Proyectos</p>
+                </a>
+              </div>
             </div>
-            <p class="text-[#0e1b14] text-xs font-medium leading-normal tracking-[0.015em]">My Plants</p>
-          </a>
-          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#4e9773]" href="#">
-            <div class="text-[#4e9773] flex h-8 items-center justify-center" data-icon="User" data-size="24px" data-weight="regular">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                <path
-                  d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"
-                ></path>
-              </svg>
+            <h2 class="text-[#111518] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Tareas</h2>
+            <div class="flex items-center gap-4 bg-white px-4 min-h-[72px] py-2">
+              <div class="text-[#111518] flex items-center justify-center rounded-lg bg-[#f0f2f5] shrink-0 size-12" data-icon="CircleNotch" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M232,128a104,104,0,0,1-208,0c0-41,23.81-78.36,60.66-95.27a8,8,0,0,1,6.68,14.54C60.15,61.59,40,93.27,40,128a88,88,0,0,0,176,0c0-34.73-20.15-66.41-51.34-80.73a8,8,0,0,1,6.68-14.54C208.19,49.64,232,87,232,128Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#111518] text-base font-medium leading-normal line-clamp-1">Completar el informe de investigación de mercado</p>
+                <p class="text-[#60778a] text-sm font-normal leading-normal line-clamp-2">Prioridad: Alta</p>
+              </div>
             </div>
-            <p class="text-[#4e9773] text-xs font-medium leading-normal tracking-[0.015em]">Profile</p>
-          </a>
+            <div class="flex items-center gap-4 bg-white px-4 min-h-[72px] py-2">
+              <div class="text-[#111518] flex items-center justify-center rounded-lg bg-[#f0f2f5] shrink-0 size-12" data-icon="CircleNotch" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M232,128a104,104,0,0,1-208,0c0-41,23.81-78.36,60.66-95.27a8,8,0,0,1,6.68,14.54C60.15,61.59,40,93.27,40,128a88,88,0,0,0,176,0c0-34.73-20.15-66.41-51.34-80.73a8,8,0,0,1,6.68-14.54C208.19,49.64,232,87,232,128Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#111518] text-base font-medium leading-normal line-clamp-1">Revisar el diseño de la interfaz de usuario</p>
+                <p class="text-[#60778a] text-sm font-normal leading-normal line-clamp-2">Prioridad: Media</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-white px-4 min-h-[72px] py-2">
+              <div class="text-[#111518] flex items-center justify-center rounded-lg bg-[#f0f2f5] shrink-0 size-12" data-icon="CircleNotch" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M232,128a104,104,0,0,1-208,0c0-41,23.81-78.36,60.66-95.27a8,8,0,0,1,6.68,14.54C60.15,61.59,40,93.27,40,128a88,88,0,0,0,176,0c0-34.73-20.15-66.41-51.34-80.73a8,8,0,0,1,6.68-14.54C208.19,49.64,232,87,232,128Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#111518] text-base font-medium leading-normal line-clamp-1">Programar una reunión con el equipo de marketing</p>
+                <p class="text-[#60778a] text-sm font-normal leading-normal line-clamp-2">Prioridad: Baja</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-white px-4 min-h-[72px] py-2">
+              <div class="text-[#111518] flex items-center justify-center rounded-lg bg-[#f0f2f5] shrink-0 size-12" data-icon="CircleNotch" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M232,128a104,104,0,0,1-208,0c0-41,23.81-78.36,60.66-95.27a8,8,0,0,1,6.68,14.54C60.15,61.59,40,93.27,40,128a88,88,0,0,0,176,0c0-34.73-20.15-66.41-51.34-80.73a8,8,0,0,1,6.68-14.54C208.19,49.64,232,87,232,128Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#111518] text-base font-medium leading-normal line-clamp-1">Finalizar la presentación del proyecto</p>
+                <p class="text-[#60778a] text-sm font-normal leading-normal line-clamp-2">Prioridad: Alta</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-white px-4 min-h-[72px] py-2">
+              <div class="text-[#111518] flex items-center justify-center rounded-lg bg-[#f0f2f5] shrink-0 size-12" data-icon="CircleNotch" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M232,128a104,104,0,0,1-208,0c0-41,23.81-78.36,60.66-95.27a8,8,0,0,1,6.68,14.54C60.15,61.59,40,93.27,40,128a88,88,0,0,0,176,0c0-34.73-20.15-66.41-51.34-80.73a8,8,0,0,1,6.68-14.54C208.19,49.64,232,87,232,128Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#111518] text-base font-medium leading-normal line-clamp-1">Actualizar la documentación del producto</p>
+                <p class="text-[#60778a] text-sm font-normal leading-normal line-clamp-2">Prioridad: Media</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="h-5 bg-[#f8fcfa]"></div>
       </div>
     </div>
   </body>

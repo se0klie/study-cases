@@ -1,0 +1,154 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Public+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden" style='font-family: "Public Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7edf4] px-10 py-3">
+          <div class="flex items-center gap-8">
+            <div class="flex items-center gap-4 text-[#0d141c]">
+              <div class="size-4">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="currentColor"></path></svg>
+              </div>
+              <h2 class="text-[#0d141c] text-lg font-bold leading-tight tracking-[-0.015em]">Q&amp;A Forum</h2>
+            </div>
+            <div class="flex items-center gap-9">
+              <a class="text-[#0d141c] text-sm font-medium leading-normal" href="#">Home</a>
+              <a class="text-[#0d141c] text-sm font-medium leading-normal" href="#">Questions</a>
+              <a class="text-[#0d141c] text-sm font-medium leading-normal" href="#">Tags</a>
+              <a class="text-[#0d141c] text-sm font-medium leading-normal" href="#">Users</a>
+            </div>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <label class="flex flex-col min-w-40 !h-10 max-w-64">
+              <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                <div
+                  class="text-[#49739c] flex border-none bg-[#e7edf4] items-center justify-center pl-4 rounded-l-lg border-r-0"
+                  data-icon="MagnifyingGlass"
+                  data-size="24px"
+                  data-weight="regular"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+                <input
+                  placeholder="Search"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border-none bg-[#e7edf4] focus:border-none h-full placeholder:text-[#49739c] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                  value=""
+                />
+              </div>
+            </label>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#0c7ff2] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Ask Question</span>
+            </button>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDt5PXt4DHHGC9eHV1HOV7gJy10JuNG6KEyFauo54pnXoKdHQsvEtve38bW6m7aCN_UcfMBVOEGfMUP-D79baf81P5JCzaGIqBxxF1-f1EqUzYyAIuiZuV4iZkicm3ImFs4D5uRG2_hbEb_krJsmYEe-wbzP15HWAH_Pi4xIXnGVsKOOSTnyVwUnM444zg1O4kGcKMiUiC0pVml09Z-fCv2YkZpZOm-MbBhR0Qb4ehtNkkZvAqbjDZ20Faz3_GTpLG-LG5mvUbtNKo");'
+            ></div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-[#0d141c] tracking-light text-[32px] font-bold leading-tight min-w-72">Top Questions</p></div>
+            <div class="px-4 py-3">
+              <label class="flex flex-col min-w-40 h-12 w-full">
+                <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                  <div
+                    class="text-[#49739c] flex border-none bg-[#e7edf4] items-center justify-center pl-4 rounded-l-lg border-r-0"
+                    data-icon="MagnifyingGlass"
+                    data-size="24px"
+                    data-weight="regular"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <input
+                    placeholder="Search questions"
+                    class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border-none bg-[#e7edf4] focus:border-none h-full placeholder:text-[#49739c] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                    value=""
+                  />
+                </div>
+              </label>
+            </div>
+            <h3 class="text-[#0d141c] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">All Questions</h3>
+            <div class="flex gap-4 bg-slate-50 px-4 py-3 justify-between">
+              <div class="flex flex-1 flex-col justify-center">
+                <p class="text-[#0d141c] text-base font-medium leading-normal">How to implement responsive design?</p>
+                <p class="text-[#49739c] text-sm font-normal leading-normal">
+                  I'm having trouble understanding how to implement a responsive design for my website. I've tried using media queries, but they don't seem to be working correctly.
+                  Can anyone provide guidance or resources on creating a responsive layout?
+                </p>
+                <p class="text-[#49739c] text-sm font-normal leading-normal">Asked by Sarah on January 15, 2024</p>
+              </div>
+              <div class="shrink-0"><p class="text-[#0d141c] text-base font-normal leading-normal">12</p></div>
+            </div>
+            <div class="flex gap-4 bg-slate-50 px-4 py-3 justify-between">
+              <div class="flex flex-1 flex-col justify-center">
+                <p class="text-[#0d141c] text-base font-medium leading-normal">Best JavaScript framework for SPA?</p>
+                <p class="text-[#49739c] text-sm font-normal leading-normal">
+                  I'm looking for recommendations on the best JavaScript framework for building a single-page application (SPA). I've heard about React, Angular, and Vue.js, but
+                  I'm unsure which one to choose. What are the pros and cons of each framework?
+                </p>
+                <p class="text-[#49739c] text-sm font-normal leading-normal">Asked by David on January 14, 2024</p>
+              </div>
+              <div class="shrink-0"><p class="text-[#0d141c] text-base font-normal leading-normal">8</p></div>
+            </div>
+            <div class="flex gap-4 bg-slate-50 px-4 py-3 justify-between">
+              <div class="flex flex-1 flex-col justify-center">
+                <p class="text-[#0d141c] text-base font-medium leading-normal">How to optimize website performance?</p>
+                <p class="text-[#49739c] text-sm font-normal leading-normal">
+                  I'm trying to optimize my website's performance, but I'm not sure where to start. What are some common techniques for improving website speed and reducing load
+                  times? Are there any tools or resources that can help me identify performance bottlenecks?
+                </p>
+                <p class="text-[#49739c] text-sm font-normal leading-normal">Asked by Emily on January 13, 2024</p>
+              </div>
+              <div class="shrink-0"><p class="text-[#0d141c] text-base font-normal leading-normal">15</p></div>
+            </div>
+            <div class="flex gap-4 bg-slate-50 px-4 py-3 justify-between">
+              <div class="flex flex-1 flex-col justify-center">
+                <p class="text-[#0d141c] text-base font-medium leading-normal">Essential skills for front-end development?</p>
+                <p class="text-[#49739c] text-sm font-normal leading-normal">
+                  I'm new to web development and I'm wondering what are the essential skills and technologies I should learn to become a front-end developer. What are the most
+                  in-demand skills in the industry, and what resources can I use to learn them?
+                </p>
+                <p class="text-[#49739c] text-sm font-normal leading-normal">Asked by Michael on January 12, 2024</p>
+              </div>
+              <div class="shrink-0"><p class="text-[#0d141c] text-base font-normal leading-normal">10</p></div>
+            </div>
+            <div class="flex gap-4 bg-slate-50 px-4 py-3 justify-between">
+              <div class="flex flex-1 flex-col justify-center">
+                <p class="text-[#0d141c] text-base font-medium leading-normal">Best practices for user authentication?</p>
+                <p class="text-[#49739c] text-sm font-normal leading-normal">
+                  I'm working on a project that requires user authentication and authorization. What are the best practices for implementing secure authentication and authorization
+                  in a web application? Are there any libraries or frameworks that can simplify this process?
+                </p>
+                <p class="text-[#49739c] text-sm font-normal leading-normal">Asked by Jessica on January 11, 2024</p>
+              </div>
+              <div class="shrink-0"><p class="text-[#0d141c] text-base font-normal leading-normal">7</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

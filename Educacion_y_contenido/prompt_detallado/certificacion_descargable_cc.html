@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Public+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden" style='font-family: "Public Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f2f5] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#111418]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path></svg>
+            </div>
+            <h2 class="text-[#111418] text-lg font-bold leading-tight tracking-[-0.015em]">EduPath</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#111418] text-sm font-medium leading-normal" href="#">Courses</a>
+              <a class="text-[#111418] text-sm font-medium leading-normal" href="#">My Learning</a>
+              <a class="text-[#111418] text-sm font-medium leading-normal" href="#">Wishlist</a>
+              <a class="text-[#111418] text-sm font-medium leading-normal" href="#">Cart</a>
+            </div>
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#f0f2f5] text-[#111418] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+            >
+              <div class="text-[#111418]" data-icon="Bell" data-size="20px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDYZkys3gO_bYl1GvM3GnK8Rpp7sUUQgcYnzCbFD7ypsx2jb6Y675V4IgvdVark7mW9f4awKNmR-cxi1JpFNVCosTgMT_GIcd85lE22IyVUlBkaTVarVRKgpMrHceWvbvdhjUzCwSCLB5MJzZMZMHJa7vb9K1wLGdWZGvlIZv4LuclCIsfXKGu0Ly_RUMsbyOGzs4nrPfKnuq7BXDCP5mOGox9NlQedFpUmWql4sl0it-NES-raBnkLui4XUMs_FOTlMDIFOFueNieS");'
+            ></div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <p class="text-[#111418] tracking-light text-[32px] font-bold leading-tight min-w-72">Course Completion Certificate</p>
+            </div>
+            <div class="flex px-4 py-3 justify-start">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-[#3d98f4] text-white text-base font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Download Certificate</span>
+              </button>
+            </div>
+            <h2 class="text-[#111418] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Completion Summary</h2>
+            <p class="text-[#111418] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Congratulations, Sarah! You have successfully completed the 'Advanced Data Science' course. Your dedication and hard work have paid off. This certificate confirms
+              your achievement and mastery of the course material. You can now download your certificate using the button above.
+            </p>
+          </div>
+        </div>
+        <footer class="flex justify-center">
+          <div class="flex max-w-[960px] flex-1 flex-col">
+            <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
+              <div class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
+                <a class="text-[#60758a] text-base font-normal leading-normal min-w-40" href="#">Terms of Service</a>
+                <a class="text-[#60758a] text-base font-normal leading-normal min-w-40" href="#">Privacy Policy</a>
+                <a class="text-[#60758a] text-base font-normal leading-normal min-w-40" href="#">Contact Us</a>
+              </div>
+              <p class="text-[#60758a] text-base font-normal leading-normal">@2024 EduPath. All rights reserved.</p>
+            </footer>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

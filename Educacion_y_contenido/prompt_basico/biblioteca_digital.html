@@ -1,0 +1,227 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Newsreader%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden" style='font-family: Newsreader, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7edf4] px-10 py-3">
+          <div class="flex items-center gap-8">
+            <div class="flex items-center gap-4 text-[#0d141c]">
+              <div class="size-4">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M36.7273 44C33.9891 44 31.6043 39.8386 30.3636 33.69C29.123 39.8386 26.7382 44 24 44C21.2618 44 18.877 39.8386 17.6364 33.69C16.3957 39.8386 14.0109 44 11.2727 44C7.25611 44 4 35.0457 4 24C4 12.9543 7.25611 4 11.2727 4C14.0109 4 16.3957 8.16144 17.6364 14.31C18.877 8.16144 21.2618 4 24 4C26.7382 4 29.123 8.16144 30.3636 14.31C31.6043 8.16144 33.9891 4 36.7273 4C40.7439 4 44 12.9543 44 24C44 35.0457 40.7439 44 36.7273 44Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+              <h2 class="text-[#0d141c] text-lg font-bold leading-tight tracking-[-0.015em]">BookVerse</h2>
+            </div>
+            <div class="flex items-center gap-9">
+              <a class="text-[#0d141c] text-sm font-medium leading-normal" href="#">Home</a>
+              <a class="text-[#0d141c] text-sm font-medium leading-normal" href="#">Browse</a>
+              <a class="text-[#0d141c] text-sm font-medium leading-normal" href="#">My Books</a>
+              <a class="text-[#0d141c] text-sm font-medium leading-normal" href="#">Wishlist</a>
+            </div>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <label class="flex flex-col min-w-40 !h-10 max-w-64">
+              <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                <div
+                  class="text-[#49739c] flex border-none bg-[#e7edf4] items-center justify-center pl-4 rounded-l-lg border-r-0"
+                  data-icon="MagnifyingGlass"
+                  data-size="24px"
+                  data-weight="regular"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+                <input
+                  placeholder="Search"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border-none bg-[#e7edf4] focus:border-none h-full placeholder:text-[#49739c] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                  value=""
+                />
+              </div>
+            </label>
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#e7edf4] text-[#0d141c] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+            >
+              <div class="text-[#0d141c]" data-icon="Bell" data-size="20px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC5Bz3beQU4oZ2Jpq6S_WGNUD1crTdJlPZmo39O8tvHypAPIAwk1x9IuKTpo_Ftr8l8ogbQ1DcAOCCfdYbNuiZGwPgrkog1DvwB7-s6nd5OKL1xvxDwS8XzkbOmDn-TjxdzKutfRD2SIbEZtYryURcNX3q6CqJoymwwFVBKuwV0ZZ_3fDVG5AXL-v-_EHnz7WXWq7jCmIKK1__V36HTK1b-klEdfCqSplL7F775r7FEwqw1y9UwDjP5heQqpiV_VZwzJ7MbkP6L9e4");'
+            ></div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="px-4 py-3">
+              <label class="flex flex-col min-w-40 h-12 w-full">
+                <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                  <div
+                    class="text-[#49739c] flex border-none bg-[#e7edf4] items-center justify-center pl-4 rounded-l-lg border-r-0"
+                    data-icon="MagnifyingGlass"
+                    data-size="24px"
+                    data-weight="regular"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <input
+                    placeholder="Search for books"
+                    class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border-none bg-[#e7edf4] focus:border-none h-full placeholder:text-[#49739c] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                    value=""
+                  />
+                </div>
+              </label>
+            </div>
+            <div class="flex gap-3 p-3 flex-wrap pr-4">
+              <button class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#e7edf4] pl-4 pr-2">
+                <p class="text-[#0d141c] text-sm font-medium leading-normal">Genre</p>
+                <div class="text-[#0d141c]" data-icon="CaretDown" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
+                  </svg>
+                </div>
+              </button>
+              <button class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#e7edf4] pl-4 pr-2">
+                <p class="text-[#0d141c] text-sm font-medium leading-normal">Author</p>
+                <div class="text-[#0d141c]" data-icon="CaretDown" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <h2 class="text-[#0d141c] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">All Books</h2>
+            <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDbpuozOCIHpBNU_l4akDcQSJFLTSEIcPMPr8CA8O1iMrRbFNAjT9YxrEM6FSgVw10RmgJhB4PyGVkEOh5ftjaSdYQIypj7_StG88xB_KpupH9LaeCgpYkkoCsrXdU8zs5E_cB8xFXMg3ukLCN-5Ey7D1m6WcVi13V2FZm_zyXZY07gWrNWt6H6qAdvTy_wMOgxFAmSFod8KX-GSWJD_lFVU-llyiqu21VgEfMW7yQXqNwUzXtB3hG4el_lucvAxDSi0rpAkbMTPW4");'
+              ></div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#0d141c] text-base font-medium leading-normal line-clamp-1">The Secret Garden</p>
+                <p class="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">by Sarah Miller</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBmpvEwImWoVNZdL5su1ZtGgpJdHknf7FWeoqgf-Vl3Sq8foZzHajeEeH0u95NU3CACn8vJ2fNlsNcdQHUGRDOHhvgxgzyAOaK7xBjQ3_o2MTyw3JSns0OHpVt7HkB4K1QxOu0WUhsJjEq0D6ArP9aHbPwZWOscBv0u5cCKjnCY81VgNRO93sAxK_4lssJE-ycC-BXtYYzNt1tFjyhYCIFmgFuyMH4_nhVLxceqzMdBmJ5qS1u9c-9K2eRdOp5cf9YF9q5P8y6BF4I");'
+              ></div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#0d141c] text-base font-medium leading-normal line-clamp-1">The Silent Observer</p>
+                <p class="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">by David Johnson</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAdG9c7B6Qj91EZ-K6Zd0MjmA_APdq--XAB0INtlNKN6_6zrZK9xcJcqnv048vy0XFGdjlPUIfj7q7y4asjl2fY6FEXS9xxibMCPXGXjQR0bzHGYXS3K1QhKdFPQd2FFNAXrC8I76YCWW0m_EcLebnaMRPt2z1QBlWl3L1j86LaxpI9VdtVxxUc_LYuvEAUEIhkooi46j6XR0GQnhBpCr2JNmyLTzYFsvPvX57-glkhRW4Fvj91w4gwPDk9dZHtPNJ-X1L9LowrjY0");'
+              ></div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#0d141c] text-base font-medium leading-normal line-clamp-1">Echoes of the Past</p>
+                <p class="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">by Emily Clark</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBGEcPLU6b33JMZPPfCHVONzCuFbgSmxbISrZ8OTqKMLGG0KGZtguvbbMPh4L9JogAV7X-B3pIXzLgJ2TM8mWat45S2ewCdcSqWw3LKwc4D-I0ptMlB6DTga5tFWsgF_cEe7-irqYqwhi01-G54JIAkUiBbDgtHPrtn9-s8iZlQ5rknT3WLvxZG55LVDBNZwdWM6Z7f86JQJ_AZbsGR61DPNcaMJ7WOa0WosJWMpWTB9omYiN9zb9sOjgaTkPMm9KTtR1Bqah0AniE");'
+              ></div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#0d141c] text-base font-medium leading-normal line-clamp-1">The Last Voyage</p>
+                <p class="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">by Michael Brown</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB7rTm_A4gtRMapFISpmHuftYEkAsBhLAfgvQBEHbnP9YHk3rX7HbG3MPHX7gE1CaALEXBt-M3HcyE_0HqbtllmzCwAPIT4aYvlBPkIJbJkSXCj-winbTUfUKhP1AqFeKBZfJitQbaPYXfZUhGg2vmgQNSDcbvwnCTIcSp2WDtVDkTz-QpMpTDLep23nbC5tEzc3iOR6hkOOxB8HV3VVq7LkJprsltKoBeOL2Hf1I7YpYsRHhO0cL7hOJeR4e0DxR1rjnnxmUiD9-E");'
+              ></div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#0d141c] text-base font-medium leading-normal line-clamp-1">Whispers in the Wind</p>
+                <p class="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">by Olivia Green</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDhOisfAmPXr2meueXXSvzESujNuxpac1jz7nHf0-5ewWpZu_BOk9IJSinchP3a7T0I_7w0NiLf2hLvZ-71xcY_XggsLWPMXZ1UDfDXHncg_yiCa2Vc3-1o5q7VqI_ZxKh1hRcXgX41Y3RwLsN14CQOIi7NvvkarrZE4R72zfxfYsZdbXgtIffFkCSCe-SSbFp5liQp4Je0SCT-ZzcprxTxrladInIzkKE9QDj3yYKRpt-ESn6d4An0NFEQ-uzc5ydSc1am4pmE1ys");'
+              ></div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#0d141c] text-base font-medium leading-normal line-clamp-1">The Hidden Truth</p>
+                <p class="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">by Robert White</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB84kiwxPC-asUAfxPFx1cbbQnNOA971J6SuhmN5ibtljd_3hk_d1OONLXXeWYv-8-q7QuI5wVhM7eAComllXCFuEqtFFr4hJMKCyzSlRE6j7MIyrteZD6-PunzFpdTn-OcIL-zDd7Jf2gJz-R2lQS3JIdRdUC6jcrRqCroYlPLlqYOpdesD0kQXJFxCpWDr0HnXdkxIhrA7TtlVW60ch0DkNe4A1v3BLFP2-rgPJIxMr8d_BjnJ_PkgkVHPCwMLRIWvMQAUKbY5rs");'
+              ></div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#0d141c] text-base font-medium leading-normal line-clamp-1">Beyond the Horizon</p>
+                <p class="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">by Sophia Black</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAy7HDVqspKTDeYzwBJSVC9cZpY-G1jf7WkGYHxv4Ir2VwJM6-C8rTkCcuPLtUZCITXxG_nTShSyD8H2cNFodBykSAat50lCXV2g5iERi5WPUXGPZBMQPx37lB9sZPEMl1o7tCrmwhe6IdEfc31Xs6EHUltS1Zc2qcENPXf907zG1mO1wDg2seehLLSJDUbGVTR1PCxYBvU7NqUMBGhNec7pp2d6A-gOshkE-itMwkzrLiQCJbYMMUJkKK2VcASboF7IxRMFTeL_T0");'
+              ></div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#0d141c] text-base font-medium leading-normal line-clamp-1">The Lost City</p>
+                <p class="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">by Thomas Grey</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDPvWWYQEqBKogfF-osjOqZI85SKyyUSEksBCQLQXn_e5_sZl2iy33Hk13uxL4_V5YuaxXkEeRSC5fFR6W95WRGnJFHFNw8ynkMnlQ0dc3_8VZSQMuqQ8H9ui7lolHm8KvM-z6_-tsYeHiR1NGl_9ep6gkn0EDHWPyprdHaAr63-n_oHqPAdqXgXpzHkAtoCWrzTE3FE9URFImSaKoM8ZpQrNlceuPxGAXpKi6h5E_p-QdArwF84GrbH_bdky70dH0evg58FNrJHTM");'
+              ></div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#0d141c] text-base font-medium leading-normal line-clamp-1">Shadows of Doubt</p>
+                <p class="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">by Victoria Blue</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuApA6h0qgGWf_BbWNfuJZSM0L1WOPjExSiMnPuDhfB1VOBut1M5ElE6DjBHaoKvCvGnGty1vyilgBy9npAGeboHdAO1TcYairSKyhnkMA8FSOmRNY4HLIbV01DXq3t3zfTTzK5lYxvZiiXaXApwr0cCdjV3V_gxTrO7mxAhZEWoNRxDoDH-tVKFWDWwhUcuKEd_HETukimzqAtJfNmXoJF_vk0KqK09lBd3IIts0miiUwrf01fpmlqcpM-XdhhjdCZS87-H8lzZf1A");'
+              ></div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#0d141c] text-base font-medium leading-normal line-clamp-1">The Final Chapter</p>
+                <p class="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">by William Red</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
